@@ -118,6 +118,7 @@ nav ul li a:hover {
 .hero {
     min-height: 100vh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 120px 8% 50px;
@@ -131,8 +132,11 @@ nav ul li a:hover {
 }
 
 .hero-image img {
-    width: 350px;
-    max-width: 100%;
+   /* width: 350px;
+    max-width: 100%;*/
+    width: 100%;
+    max-width: 400px;
+    height: auto;
     border-radius: 50%;
     border: 2px solid var(--secondary-color);
     box-shadow: 0 0 80px #b15cf68c;
